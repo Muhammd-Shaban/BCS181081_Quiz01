@@ -5,6 +5,11 @@
     <title></title>
   </head>
   <body>
-  <p>Hello World ! </p>
+  <br>
+  <form action="ServletShaban" method="post">
+    <label>Enter Anything: </label>
+    <input type="text" placeholder="" name="data"><br>
+    <input type="submit" value="Send Data" name="Button">
+  </form>
   </body>
 </html>
